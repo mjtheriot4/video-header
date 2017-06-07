@@ -14,3 +14,8 @@ function loopSlides() {
     loopSlides();
   }
 }
+var video = document.getElementById('video');
+video.addEventListener('click', reloadVideo);
+function reloadVideo() {
+  video.load();
+}
