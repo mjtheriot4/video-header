@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,900');
+header > section.row {
+  position: relative;
+}
+#text-container {
+  position: absolute;
+  overflow: hidden;
+}
+#text-container > div {
+  display: none;
+}
+#slide1 {
+
+}
+#slide2 {
+
+}
+#slide3 {
+
+}
+div#text-container h2 {
+  font-size: 2.5em;
+  font-family: lexia-advertising, serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+div#text-container p {
+  font-size: 1.5em;
+  font-family: lexia-advertising, serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  text-shadow: 2px 2px 6px black;
+}
+video {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+@media only screen and (min-width: 0px) {
+  #text-container {
+    left:7%;
+    top: 7%;
+    max-width: 86%;
+  }
+  div#text-container h2 {
+    font-size: 2em;
+  }
+  div#text-container p {
+    font-size: 1.5em;
+  }
+}
+div#screen {
+  position: absolute;
+  left: 0; top:0;
+  height:100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media only screen and (min-width: 580px) {
+  #text-container {
+    left:10%;
+    top: 10%;
+    max-width: 80%;
+  }
+  div#text-container h2 {
+    font-size: 3em;
+  }
+  div#text-container p {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (min-width: 856px) {
+  #text-container {
+    left: 20%;
+    top: 20%;
+    max-width: 60%;
+  }
+    div#text-container h2 {
+      font-size: 3.6em;
+    }
+    div#text-container p {
+      font-size: 3em;
+    }
+  }
+}
